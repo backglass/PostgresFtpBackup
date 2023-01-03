@@ -14,7 +14,7 @@ print (file_name)
 #Dado que para ejecutar un programa con parámetros se necita usar una lista, ["para1","para2"]
 
 #Creo una variable con el texto de el comando y sus parámetros
-pg = f"pg_dump.exe -h localhost -p 5432 -U postgres -w -F c -v -d plisafor -f c:/bck/{file_name}"
+pg = f"pg_dump.exe -h localhost -p 5432 -U postgres -w -F c -v -d namebbdd -f c:/bck/{file_name}"
 #Creo una lista de pg con cada elemento como parámetro
 lst = [a for a in pg.split( )]
 
